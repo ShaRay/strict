@@ -1,7 +1,10 @@
+#Project Notes
 
 
+##fonts:
 
-fonts:
 - FontAwesome
 - Lato-Bold
 - Lato-Regular
+
+font-family: 'Lato', sans-serif;

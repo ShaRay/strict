@@ -1,0 +1,7 @@
+{
+  "in": "assets/scss/application.scss",
+  "out": "dist/css/application.css",
+  "sass": true,
+  "browsers": ["last 3 versions", "Android 2.3"],
+  "rem": ["16px"]
+}

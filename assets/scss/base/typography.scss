@@ -2,6 +2,70 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', sans-serif;
+.t-xl {
+  font-size: 3.875rem; // 62px
+}
+
+.t-l {
+  font-size: 3rem; // 48px
+}
+
+.t-m {
+  font-size: 1.75rem; // 28px
+}
+
+h1, .t-1 {
+  font-size: 1.875rem; // 30px
+}
+
+h2, .t-2 {
+  font-size: 1.5rem; // 24px
+}
+
+h3, .t-3 {
+  font-size: 1.125rem; // 18px
+}
+
+h4, .t-4 {
+  font-size: 1rem; // To calculate rem sizes, desired_size/base_font size
+}
+
+h5, .t-5 {
+  font-size: 0.8125rem; // 13/16
+}
+
+h6, .t-6 {
+  font-size: 0.75rem; // 12/16
+}
+
+.t-pacifico {
+  font-family: 'Pacifico', cursive;
+}
+
+.t-xbold {
+  font-weight: 800;
+}
+
+.t-bold {
+  font-weight: 700;
+}
+
+.t-semi {
+  font-weight: 600;
+}
+
+.t-regular {
+  font-weight: 400;
+}
+
+.t-thin {
+  font-weight: 300;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.t-center {
+  text-align: center;
 }

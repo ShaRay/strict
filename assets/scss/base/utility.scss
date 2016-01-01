@@ -1,0 +1,23 @@
+.clearfix:after {
+  clear: both;
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix { display: inline-block;}
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+}
+
+.d-block {
+  display: block;
+}

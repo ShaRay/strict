@@ -1,71 +1,56 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+/*
 
-.t-xl {
-  font-size: 3.875rem; // 62px
+  Basscss
+  http://basscss.com
+
+  513 B
+  24 Rules
+  33 Selectors
+  40 Declarations
+  Generated with http://basscss.com/customize
+
+*/
+body {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  line-height: 1.5;
+  font-size: 100%;
 }
 
-.t-l {
-  font-size: 3rem; // 48px
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 1.25;
+  margin-top: 1em;
+  margin-bottom: .5em;
 }
 
-.t-m {
-  font-size: 1.75rem; // 28px
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
-h1, .t-1 {
-  font-size: 1.875rem; // 30px
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
-h2, .t-2 {
-  font-size: 1.5rem; // 24px
+pre, code, samp {
+  font-family: 'Source Code Pro', Consolas, monospace;
+  font-size: inherit;
 }
 
-h3, .t-3 {
-  font-size: 1.125rem; // 18px
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow-x: scroll;
 }
 
-h4, .t-4 {
-  font-size: 1rem; // To calculate rem sizes, desired_size/base_font size
-}
-
-h5, .t-5 {
-  font-size: 0.8125rem; // 13/16
-}
-
-h6, .t-6 {
-  font-size: 0.75rem; // 12/16
-}
-
-.t-pacifico {
-  font-family: 'Pacifico', cursive;
-}
-
-.t-xbold {
-  font-weight: 800;
-}
-
-.t-bold {
-  font-weight: 700;
-}
-
-.t-semi {
-  font-weight: 600;
-}
-
-.t-regular {
-  font-weight: 400;
-}
-
-.t-thin {
-  font-weight: 300;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.t-center {
-  text-align: center;
-}
+h1 { font-size: 2rem }
+h2 { font-size: 1.5rem }
+h3 { font-size: 1.25rem }
+h4 { font-size: 1rem }
+h5 { font-size: .875rem }
+h6 { font-size: .75rem }

@@ -1,5 +1,19 @@
-body {
+.hero {
   background-image: url("../img/hero-image.png");
   background-repeat: no-repeat;
   background-size: cover;
+  color: $white;
+
+  .container {
+    display: flex;
+    min-height: 50rem;
+    padding-top: 3.125rem;
+  }
 }
+
+.strike::before,
+  .strike::after {
+    background-color: $picton-blue;
+    height: 1rem;
+    width: 37.5rem;
+  }

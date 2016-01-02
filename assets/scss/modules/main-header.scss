@@ -1,12 +1,16 @@
 .main-header {
-  .logo {
     background-color: $black-haze;
-    color: $madison;
-    font-size: 2rem;
-    margin: 0;
-  }
+    height: 80px;
 }
 
 .logo {
+  color: $madison;
+  font-size: 2rem;
+  margin: 3px 55px;
+}
 
+.logo-image {
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  margin: 3px 100px;
 }

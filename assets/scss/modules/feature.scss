@@ -2,3 +2,18 @@
   background-color: $white;
   min-height: 21.25rem;
 }
+
+.grey {
+  color: $aluminum;
+}
+
+.feature-title {
+  &:before {
+    background-image: url("../img/bluebg.png");
+    content: " ";
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto 1rem;
+  }
+}

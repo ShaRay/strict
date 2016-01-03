@@ -7,13 +7,21 @@
   color: $aluminum;
 }
 
-.feature-title {
-  &:before {
-    background-image: url("../img/bluebg.png");
-    content: " ";
-    display: block;
-    height: 100px;
-    width: 100px;
-    margin: 0 auto 1rem;
-  }
+// .feature-item {
+//   &:before {
+//     background-image: url("../img/bluebg.png");
+//     content: " ";
+//     display: block;
+//     height: 100px;
+//     width: 100px;
+//     margin: 0 auto 1rem;
+//   }
+// }
+
+.feature-icon {
+  background-image: url("../img/bluebg.png");
+  color: $white;
+  height: 100px;
+  line-height: 100px;
+  width: 100px;
 }

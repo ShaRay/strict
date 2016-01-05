@@ -1,6 +1,6 @@
 .portfolio {
   background-color: $black-haze;
-  min-height: 56.25rem;
+  background: cover;
 }
 
 .showcase {
@@ -9,10 +9,16 @@
 
 .img-list {
   display: inline-block;
-  float: left;
-  list-style-type: none;
   height: 260px;
+  list-style-type: none;
+  padding: 30px 10px 10px 30px;
   width: 360px;
-  margin: 0 25px;
-  padding: 0 20px 20px 0;
+}
+
+.hover-container {
+  text-align: center;
+}
+
+.work {
+  margin: 0;
 }

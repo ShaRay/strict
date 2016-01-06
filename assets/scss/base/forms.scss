@@ -8,7 +8,7 @@
   width: 35rem;
 }
 
-.button  {
+.button {
   background: rgba(0, 0, 0, 0.1);
   border: 1px solid $picton-blue;
   border-radius: 5px;
@@ -19,9 +19,9 @@
 
 .newsletter {
   color: $white;
-  padding: 1rem;
-  display: inline-block;
   border-radius: 5px;
+  display: inline-block;
   height: 25px;
+  padding: 1rem;
   width: 25px;
 }

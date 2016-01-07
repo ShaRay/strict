@@ -11,9 +11,28 @@
   }
 }
 
-.strike::before,
-  .strike::after {
+.line {
+  background-image: url("../img/line.png");
+  margin-left: 12.5rem;
+  min-height: 2px;
+  width: 37.5rem;
+}
+
+.call {
+  border: 1px solid $picton-blue;
+  border-radius: 5px;
+  font-size: 18px;
+  min-height: 4.0625rem;
+  max-width: 11.5rem;
+  margin: 3.125rem auto;
+
+  :hover {
     background-color: $picton-blue;
-    height: 1rem;
-    width: 37.5rem;
+    padding: 20px;
   }
+}
+
+.action {
+  padding-top: 20px;
+  text-align: center;
+}

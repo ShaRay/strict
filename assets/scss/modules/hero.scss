@@ -13,8 +13,8 @@
 
 .line {
   background-image: url("../img/line.png");
-  margin-left: 12.5rem;
   min-height: 2px;
+  margin-left: 12.5rem;
   width: 37.5rem;
 }
 
@@ -32,4 +32,10 @@
 
 .stay-button:hover {
   background-color: $picton-blue;
+}
+
+.angle {
+  color: $white;
+  font-size: 2rem;
+  margin-top: 75px;
 }

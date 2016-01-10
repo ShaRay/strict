@@ -35,12 +35,15 @@
   text-align: center;
 }
 
-  .misc-image {
-    list-style: none;
-    margin-left: 5px;
-  }
+.misc-image {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 5px;
 
-  .img-list .misc-image {
+}
+
+.img-list .misc-image {
   display: inline-block;
   margin: 0 1em 1em 0;
   position: relative;
@@ -53,4 +56,44 @@
 .hover-container {
   position: relative;
   overflow: hidden;
+}
+
+.image-icon {
+  display: inline-block;
+  text-align: center;
+}
+
+.magnify-icon {
+  list-style-type: none;
+  border: 2px solid $white;
+  color: $white;
+  float: left;
+  height: 45px;
+  margin-left: 75px;
+  margin-right: auto;
+  margin-top: 115px;
+  position: relative;
+  text-align: center;
+  width: 45px;
+}
+
+.chain-icon {
+  list-style-type: none;
+  border: 2px solid $white;
+  color: $white;
+  height: 45px;
+  float: right;
+  margin-left: auto;
+  margin-right: 136px;
+  margin-top: 115px;
+  position: relative;
+  text-align: center;
+  width: 45px;
+}
+.magnify {
+  padding-top: 15px;
+}
+
+.chain {
+  padding-top: 15px;
 }

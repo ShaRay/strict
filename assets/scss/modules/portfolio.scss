@@ -10,7 +10,6 @@
 
 .content {
   background-color: $picton-blue;
-  cursor: pointer;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -43,7 +42,7 @@
 
 .img-list .misc-image {
   display: inline-block;
-  margin: 0 1em 1em 0;
+  margin: 0 1em 0 0;
   position: relative;
 }
 
@@ -58,6 +57,8 @@
 
 .image-icon {
   display: inline-block;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
@@ -67,11 +68,10 @@
   float: left;
   height: 45px;
   list-style-type: none;
-  margin-left: 75px;
-  margin-right: auto;
-  margin-top: 115px;
-  position: relative;
+  position: absolute;
   text-align: center;
+  top: 110px;
+  left: 125px;
   width: 45px;
 }
 
@@ -81,11 +81,10 @@
   height: 45px;
   float: right;
   list-style-type: none;
-  margin-left: auto;
-  margin-right: 136px;
-  margin-top: 115px;
-  position: relative;
+  position: absolute;
   text-align: center;
+  top: 110px;
+  left: 183px;
   width: 45px;
 }
 

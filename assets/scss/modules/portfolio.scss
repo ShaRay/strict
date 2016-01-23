@@ -65,33 +65,37 @@
 .magnify-icon {
   border: 2px solid $white;
   color: $white;
+  cursor: pointer;
   float: left;
   height: 45px;
+  left: 125px;
   list-style-type: none;
   position: absolute;
   text-align: center;
   top: 110px;
-  left: 125px;
   width: 45px;
 }
 
 .chain-icon {
   border: 2px solid $white;
   color: $white;
+  cursor: pointer;
   height: 45px;
   float: right;
+  left: 183px;
   list-style-type: none;
   position: absolute;
   text-align: center;
   top: 110px;
-  left: 183px;
   width: 45px;
 }
 
 .magnify {
+  color: $white;
   padding-top: 15px;
 }
 
 .chain {
+  color: $white;
   padding-top: 15px;
 }

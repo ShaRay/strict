@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: $white;
+  padding: absolute;
 
   .container {
     display: flex;
@@ -12,10 +13,13 @@
 }
 
 .line {
-  background-image: url("../img/line.png");
-  margin-left: 12.5rem;
-  min-height: 2px;
-  width: 37.5rem;
+  background-color: $picton-blue;
+  border: none;
+  height: 1px;
+  top: 22px;
+  right: 8px;
+  position: relative;
+  width: 80%;
 }
 
 .stay-button {

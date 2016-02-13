@@ -1,0 +1,46 @@
+.footer {
+  background-color: $black-haze;
+  background: cover;
+  height: 90px;
+  width: 200px;
+}
+
+.copy {
+  color: $aluminum;
+  display: inline-block;
+  margin: 50px;
+}
+
+.social-menu {
+  float: right;
+  list-style: none;
+  margin: 50px;
+  padding: 0 0 15px;
+}
+
+.social-icon {
+  background-color: $picton-blue;
+  color: $white;
+  cursor: pointer;
+  display: inline-block;
+  height: 42px;
+  margin-right: 2px;
+  width: 42px;
+}
+
+.link {
+  margin-right: 9.375rem;
+}
+
+.white {
+  color: $white;
+}
+
+.bird,
+.face,
+.plus,
+.linked {
+  color: $white;
+  font-size: 1rem;
+  padding-top: 15px;
+}

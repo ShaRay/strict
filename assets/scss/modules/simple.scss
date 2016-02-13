@@ -5,6 +5,12 @@
 }
 
 .design {
-  padding: 15px 150px;
   color: $aluminum;
+  padding: 15px 150px;
+}
+
+@media only screen and (max-width: 400px) {
+  .design {
+    padding: 15px 7px;
+  }
 }

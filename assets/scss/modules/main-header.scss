@@ -1,15 +1,17 @@
 .main-header {
-    background-color: $black-haze;
+  background-color: $black-haze;
+  height: 6.25rem;
+  position: relative;
 }
 
 .logo {
   color: $madison;
   font-size: 2rem;
-  margin: 0 45px;
+  margin: 30px 45px;
 }
 
 .logo-image {
   background-image: url("../img/logo.png");
   background-repeat: no-repeat;
-  margin: 3px 100px;
+  margin: 5px 100px;
 }

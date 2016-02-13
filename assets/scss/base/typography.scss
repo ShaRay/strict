@@ -10,6 +10,7 @@
   Generated with http://basscss.com/customize
 
 */
+
 body {
   font-family: 'Lato', sans-serif;
   line-height: 1.5;
@@ -90,4 +91,10 @@ h5,
 h6,
 .t6 {
   font-size: 0.75rem;
+}
+
+@media only screen and (max-width: 400px) {
+  .giga {
+    font-size: 4.5rem;
+  }
 }

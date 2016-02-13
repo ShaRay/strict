@@ -1,4 +1,105 @@
 .portfolio {
   background-color: $black-haze;
-  min-height: 56.25rem;
+  background: cover;
+  padding-bottom: 7.5rem;
+}
+
+.showcase {
+  padding-top: 5.625rem;
+}
+
+.content {
+  background-color: $picton-blue;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  padding: 0 15px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: opacity 500ms;
+  width: 100%;
+
+  .description {
+    flex: 1;
+
+    .img-list li:hover .content {
+      opacity: 0.8;
+    }
+  }
+}
+
+.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.misc-image {
+  margin: 0;
+  margin-left: 5px;
+  padding: 0;
+}
+
+.img-list .misc-image {
+  display: inline-block;
+  margin: 0 1em 0 0;
+  position: relative;
+}
+
+.img-list li:hover .content {
+  opacity: 0.8;
+}
+
+.hover-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.image-icon {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.magnify-icon {
+  border: 2px solid $white;
+  color: $white;
+  cursor: pointer;
+  float: left;
+  height: 45px;
+  left: 125px;
+  list-style-type: none;
+  position: absolute;
+  text-align: center;
+  top: 110px;
+  width: 45px;
+}
+
+.chain-icon {
+  border: 2px solid $white;
+  color: $white;
+  cursor: pointer;
+  height: 45px;
+  float: right;
+  left: 183px;
+  list-style-type: none;
+  position: absolute;
+  text-align: center;
+  top: 110px;
+  width: 45px;
+}
+
+.magnify {
+  color: $white;
+  padding-top: 15px;
+}
+
+.chain {
+  color: $white;
+  padding-top: 15px;
 }

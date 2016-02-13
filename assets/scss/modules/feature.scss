@@ -7,22 +7,27 @@
   color: $aluminum;
 }
 
-// .feature-item {
-//   &:before {
-//     background-image: url("../img/bluebg.png");
-//     content: " ";
-//     display: block;
-//     height: 100px;
-//     width: 100px;
-//     margin: 0 auto 1rem;
-//   }
-// }
-
 .feature-icon {
   background-image: url("../img/bluebg.png");
   color: $white;
   height: 100px;
   line-height: 100px;
-  width: 100px;
   margin-top: 4rem;
+  width: 100px;
+}
+
+.sub-caption {
+  font-size: 17px;
+  text-align: center;
+}
+
+.middle-caption {
+  margin-left: 20px;
+}
+
+@media only screen (max-width: 400px) {
+  .sub-caption {
+    visibility: hidden;
+
+  }
 }

@@ -3,9 +3,15 @@
   border: 1px solid $aluminum;
   border-radius: 5px;
   display: block;
-  margin: auto;
   padding: 2rem;
-  width: 37.5rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.contact-form {
+  padding: 0 1rem 0 1rem;
+  margin: 0 auto;
+  max-width: 44.25rem;
 }
 
 .message {
@@ -17,32 +23,16 @@
   border: 1px solid #3ea4fa;
   border-radius: 5px;
   color: #fff;
-  margin-left: 302px;
-  margin-right: -0.5rem;
+  float: right;
   padding: 1rem;
-  position: relative;
-  top: -2px;
   width: 8.935rem;
 }
 
 
-@media (min-width: 1px) and (max-width: 767px) {
-  .button {
-  	margin-left: 180px;
-	  margin-right: -.5rem;
-	  padding: 8px;
-	  position: relative;
-	  top: -33px;
-	  width: 7.935rem;
-    margin-right: 14rem;
-  }
-}
-
 .newsletter {
-  display: inline-block;
   color: $white;
-  margin-left: 5px;
-  position: relative;
+  display: inline-block;
+  margin-top: 1rem;
 }
 
 [type="text"] {
@@ -55,11 +45,4 @@
 
 [name="message"] {
   color: $aluminum;
-}
-
-
-@media (min-width: 1px) and (max-width: 767px) {
-  .form-control {
-    width: 14rem;
-  }
 }

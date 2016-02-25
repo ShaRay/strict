@@ -1,21 +1,21 @@
 .footer {
   background-color: $black-haze;
   background: cover;
-  height: 90px;
-  width: 200px;
+  height: 5.625rem; // 90/16
+  width: 12.5rem; // 200/16
 }
 
 .copy {
   color: $aluminum;
   display: inline-block;
-  margin: 50px;
+  margin: 3.125rem; // 50/16
 }
 
 .social-menu {
   float: right;
   list-style: none;
-  margin: 50px;
-  padding: 0 0 15px;
+  margin: 3.125rem; // 50/16
+  padding: 0 0 0.9375rem; // 15/16
 }
 
 .social-icon {
@@ -23,9 +23,9 @@
   color: $white;
   cursor: pointer;
   display: inline-block;
-  height: 42px;
-  margin-right: 2px;
-  width: 42px;
+  height: 2.625rem; // 42/16
+  margin-right: 0.125rem; // 2/16
+  width: 2.625rem; // 42/16
 }
 
 .link {
@@ -42,21 +42,5 @@
 .linked {
   color: $white;
   font-size: 1rem;
-  padding-top: 15px;
-}
-
-@media (min-width: 1px) and (max-width: 767px) {
-  .social-menu {
-    list-style: none;
-    margin: 0 -80px 0 15px;
-    padding: 0 0 15px;
-    position: relative;
-    width: 337px;
-  }
-}
-
-@media (min-width: 1px) and (max-width: 767px) {
-  .copy {
-    margin: 50px -13px 50px 70px;
-  }
+  padding-top: 0.9375; // 15/16
 }

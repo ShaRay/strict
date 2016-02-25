@@ -10,24 +10,17 @@
 .feature-icon {
   background-image: url("../img/bluebg.png");
   color: $white;
-  height: 100px;
-  line-height: 100px;
+  height: 6.25rem; // 100/16
+  line-height: 6.25rem; // 100/16
   margin-top: 4rem;
-  width: 100px;
+  width: 6.25rem; // 100/16
 }
 
 .sub-caption {
-  font-size: 17px;
+  font-size: 1.0625rem; // 17/16
   text-align: center;
 }
 
 .middle-caption {
-  margin-left: 20px;
-}
-
-@media (min-width: 1px) and (max-width: 767px) {
-  .sub-caption {
-    visibility: hidden;
-    margin-bottom: -150px;
-  }
+  margin-left: 1.25rem; // 20/16
 }

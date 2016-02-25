@@ -6,11 +6,5 @@
 
 .design {
   color: $aluminum;
-  padding: 15px 150px;
-}
-
-@media only screen and (min-width: 320px) {
-  .design {
-    padding: 15px 7px;
-  }
+  padding: 0.9375rem 9.375rem; // 15/16 150/16
 }

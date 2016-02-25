@@ -1,7 +1,7 @@
 .form-control {
   background: rgba(0, 0, 0, 0);
-  border: 1px solid $aluminum;
-  border-radius: 5px;
+  border: 0.0625rem solid $aluminum; // 1/16
+  border-radius: 0.3125rem; // 5/16
   display: block;
   padding: 2rem;
   box-sizing: border-box;
@@ -15,13 +15,13 @@
 }
 
 .message {
-  height: 160px;
+  height: 10rem; // 160/16
 }
 
 .button {
   background: transparent;
-  border: 1px solid #3ea4fa;
-  border-radius: 5px;
+  border: 0.0625rem solid #3ea4fa; // 1/16
+  border-radius: 0.3125rem; // 5/16
   color: #fff;
   float: right;
   padding: 1rem;

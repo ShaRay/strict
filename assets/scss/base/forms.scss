@@ -3,35 +3,36 @@
   border: 1px solid $aluminum;
   border-radius: 5px;
   display: block;
-  margin: auto;
   padding: 2rem;
-  width: 35rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.contact-form {
+  padding: 0 1rem 0 1rem;
+  margin: 0 auto;
+  max-width: 44.25rem;
+}
+
+.message {
+  height: 160px;
 }
 
 .button {
-  background: rgba(0, 0, 0, 0);
-  border: 1px solid $picton-blue;
+  background: transparent;
+  border: 1px solid #3ea4fa;
   border-radius: 5px;
-  color: $white;
-  margin-right: 19.5rem;
+  color: #fff;
+  float: right;
   padding: 1rem;
   width: 8.935rem;
 }
 
+
 .newsletter {
   color: $white;
-  border-radius: 5px;
   display: inline-block;
-  height: 10px;
-  margin-left: 16.375rem;
-  margin-right: 3.4375rem;
-  padding: 1rem;
-  width: 10px;
-}
-
-.box {
-  margin-right: 15px;
-  width: 20px;
+  margin-top: 1rem;
 }
 
 [type="text"] {

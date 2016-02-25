@@ -15,11 +15,11 @@
 .line {
   background-color: $picton-blue;
   border: 0;
-  height: 1px;
+  height: 2px;
   position: relative;
   right: 8px;
-  top: 22px;
-  width: 80%;
+  top: -29px;
+  width: 55%;
 }
 
 .stay-button {
@@ -44,8 +44,21 @@
   margin-top: 75px;
 }
 
-@media screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
   .angle {
     margin-top: 140px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .line {
+    top: -9px;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .design {
+    text-align: left;
   }
 }

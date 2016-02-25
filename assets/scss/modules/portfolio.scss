@@ -33,21 +33,22 @@
 
 .img-list {
   list-style-type: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   text-align: center;
+  max-width: 71.25rem; // 1140/16
 }
 
 .misc-image {
   margin: 0;
-  margin-left: 5px;
   padding: 0;
-}
-
-.img-list .misc-image {
   display: inline-block;
-  margin: 0 1em 0 0;
+  margin: 0 0.5rem 0;
   position: relative;
+
+    img {
+      display: block;
+    }
 }
 
 .img-list li:hover .content {
@@ -103,3 +104,9 @@
   color: $white;
   padding-top: 15px;
 }
+
+//@media (min-width: 1px) and (max-width: 767px) {
+  //.img-list {
+  //  margin-left: 5px;
+//  }
+//}

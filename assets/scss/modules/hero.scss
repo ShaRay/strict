@@ -43,3 +43,15 @@
   font-size: 2rem; // 32/16
   margin-top: 4.6875rem; // 75/16
 }
+
+@media only screen and (min-width:320px) and (max-width: 640px) {
+  .line {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width:320px) and (max-width: 640px) {
+  .angle {
+    margin-top: 6.6875rem;
+  }
+}

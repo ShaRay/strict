@@ -24,3 +24,11 @@
 .middle-caption {
   margin-left: 1.25rem; // 20/16
 }
+
+@media only screen and (min-width:320px) and (max-width: 640px) {
+  .feature, .col {
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 0.3125rem; // 5/16
+  }
+}

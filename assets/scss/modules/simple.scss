@@ -6,11 +6,17 @@
 
 .design {
   color: $aluminum;
-  padding: 0.9375rem 9.375rem; // 15/16 150/16
+  padding: 0.9375rem; // 15/16
 }
 
 @media only screen and (min-width:320px) and (max-width: 640px) {
   .design {
     padding: 0.9375rem 1.375rem;
+  }
+}
+
+@media only screen and (min-width:320px) and (max-width: 640px) {
+  .simple-heading {
+    padding: 0.9375rem 2.375rem;
   }
 }

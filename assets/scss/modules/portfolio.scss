@@ -9,12 +9,14 @@
 
 .content {
   background-color: $picton-blue;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   height: 100%;
   left: 0;
   opacity: 0;
-  padding: 0.9375rem; // 15/16
+  padding: 0 15px;
+  position: absolute;
   text-align: center;
   top: 0;
   transition: opacity 500ms;
@@ -22,12 +24,8 @@
 
   .description {
     flex: 1;
-
-    .img-list li:hover .content {
-      opacity: 0.8;
-    }
-  }
-}
+   }
+ }
 
 .img-list {
   list-style-type: none;
@@ -35,6 +33,10 @@
   padding: 0;
   text-align: center;
   max-width: 71.25rem; // 1140/16
+}
+
+.img-list li:hover .content {
+  opacity: 0.8;
 }
 
 .misc-image {
@@ -46,10 +48,6 @@
     img {
       display: block;
     }
-}
-
-.img-list li:hover .content {
-  opacity: 0.8;
 }
 
 .hover-container {
@@ -106,5 +104,12 @@
   .misc-image {
     display: block;
     padding: 0 1px 0 1px;
+  }
+}
+
+@media only screen and (min-width:320px) and (max-width: 480px) {
+  .content {
+    margin: 0;
+    padding: 0;
   }
 }

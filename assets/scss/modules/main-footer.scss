@@ -44,22 +44,19 @@
   padding-top: 0.9375rem; // 15/16
 }
 
-@media only screen and (min-width:320px) and (max-width: 640px) {
+@media only screen and (min-width: 320px) and (max-width: 640px) {
   .copy {
-    margin: 1.8125rem 61px 1.3125rem 4.5rem; // 29/16 69/16 24/16
- }
-}
-
-@media only screen and (min-width:375px) and (max-width: 640px) {
-  .copy {
-    margin: 1.8125rem 61px 1.3125rem 6.5rem; // 29/16 69/16 24/16
- }
+    display: block;
+    position: relative;
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width:320px) and (max-width: 640px) {
   .social-menu {
     float: none;
     margin: 0 auto;
+    position: relative;
     text-align: center;
  }
 }

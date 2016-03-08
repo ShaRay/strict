@@ -20,14 +20,14 @@
 .sub-caption {
   display: inline-block;
   font-size: 1rem;
-  line-height: 24px;
+  line-height: 1.5rem; // 24/16
   margin: 0 auto;
-  padding: 0 46px;
+  padding: 0 2.875rem; // 46/16
   text-align: center;
 }
 
 .middle-caption, .right-caption {
-  padding: 0 46px;
+  padding: 0 2.875; // 46/16
 }
 
 @media only screen and (min-width:320px) and (max-width: 640px) {

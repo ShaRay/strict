@@ -15,22 +15,22 @@
 .line {
   background-color: $picton-blue;
   border: 0;
-  height: 2px;
+  height: 0.125rem; // 2/16
   position: relative;
-  right: 8px;
-  top: -29px;
+  right: 0.5rem; // 8/16
+  top: 0.018125rem; // -29/16
   width: 55%;
 }
 
 .stay-button {
   background: rgba(0, 0, 0, 0);
-  border: 1px solid $picton-blue;
-  border-radius: 5px;
+  border: 0.0625rem solid $picton-blue; // 1/16
+  border-radius: 0.3125rem; // 5/16
   color: $white;
-  font-size: 18px;
-  margin: 3.125rem auto;
-  min-height: 4.0625rem;
-  min-width: 11.5rem;
+  font-size: 1.125rem; // 18/16
+  margin: 3.125rem auto; // 50/16
+  min-height: 4.0625rem; // 65/16
+  min-width: 11.5rem; // 184/16
   overflow: hidden;
 }
 
@@ -40,25 +40,18 @@
 
 .angle {
   color: $white;
-  font-size: 2rem;
-  margin-top: 75px;
+  font-size: 2rem; // 32/16
+  margin-top: 4.6875rem; // 75/16
 }
 
-@media only screen and (max-width: 400px) {
-  .angle {
-    margin-top: 140px;
-  }
-}
-
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width:320px) and (max-width: 640px) {
   .line {
-    top: -9px;
-    width: 90%;
+    width: 85%;
   }
 }
 
-@media only screen and (max-width: 400px) {
-  .design {
-    text-align: left;
+@media only screen and (min-width:320px) and (max-width: 640px) {
+  .angle {
+    margin-top: 6.6875rem;
   }
 }

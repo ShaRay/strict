@@ -1,6 +1,7 @@
 .feature {
   background-color: $white;
-  min-height: 21.25rem;
+  min-height: 21.25rem; // 340/16
+  max-width: 100%;
 }
 
 .grey {
@@ -10,24 +11,29 @@
 .feature-icon {
   background-image: url("../img/bluebg.png");
   color: $white;
-  height: 100px;
-  line-height: 100px;
-  margin-top: 4rem;
-  width: 100px;
+  height: 6.25rem; // 100/16
+  line-height: 6.25rem; // 100/16
+  margin-top: 4rem; // 64/16
+  width: 6.25rem; // 100/16
 }
 
 .sub-caption {
-  font-size: 17px;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 24px;
+  margin: 0 auto;
+  padding: 0 46px;
   text-align: center;
 }
 
-.middle-caption {
-  margin-left: 20px;
+.middle-caption, .right-caption {
+  padding: 0 46px;
 }
 
-@media (min-width: 1px) and (max-width: 767px) {
-  .sub-caption {
-    visibility: hidden;
-    margin-bottom: -150px;
+@media only screen and (min-width:320px) and (max-width: 640px) {
+  .feature, .col {
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 0.3125rem; // 5/16
   }
 }

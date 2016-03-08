@@ -1,15 +1,15 @@
 .portfolio {
   background-color: $black-haze;
-  background: cover;
   padding-bottom: 7.5rem;
 }
 
 .showcase {
-  padding-top: 5.625rem;
+  padding: 5.625rem 0.3125rem; // 90/16 5/16
 }
 
 .content {
   background-color: $picton-blue;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -24,12 +24,8 @@
 
   .description {
     flex: 1;
-
-    .img-list li:hover .content {
-      opacity: 0.8;
-    }
-  }
-}
+   }
+ }
 
 .img-list {
   list-style-type: none;
@@ -39,8 +35,11 @@
   max-width: 71.25rem; // 1140/16
 }
 
+.img-list li:hover .content {
+  opacity: 0.8;
+}
+
 .misc-image {
-  margin: 0;
   padding: 0;
   display: inline-block;
   margin: 0 0.5rem 0;
@@ -49,10 +48,6 @@
     img {
       display: block;
     }
-}
-
-.img-list li:hover .content {
-  opacity: 0.8;
 }
 
 .hover-container {
@@ -68,45 +63,46 @@
 }
 
 .magnify-icon {
-  border: 2px solid $white;
+  border: 0.125rem solid $white; // 2/16
   color: $white;
   cursor: pointer;
   float: left;
-  height: 45px;
-  left: 125px;
+  height: 2.8125rem; // 45/16
+  left: 7.8125rem; // 125/16
   list-style-type: none;
   position: absolute;
   text-align: center;
-  top: 110px;
-  width: 45px;
+  top: 6.875rem; // 110/16
+  width: 2.8125rem; // 45/16
 }
 
 .chain-icon {
-  border: 2px solid $white;
+  border: 0.125rem solid $white; // 2/16
   color: $white;
   cursor: pointer;
-  height: 45px;
+  height: 2.8125rem; // 45/16
   float: right;
-  left: 183px;
+  left: 11.4375rem; //183/16
   list-style-type: none;
   position: absolute;
   text-align: center;
-  top: 110px;
-  width: 45px;
+  top: 6.875rem;  // 110/16
+  width: 2.8125rem; // 45/16
 }
 
 .magnify {
   color: $white;
-  padding-top: 15px;
+  padding-top: 0.9375rem; // 15/16
 }
 
 .chain {
   color: $white;
-  padding-top: 15px;
+  padding-top: 0.9375rem; // 15/16
 }
 
-//@media (min-width: 1px) and (max-width: 767px) {
-  //.img-list {
-  //  margin-left: 5px;
-//  }
-//}
+@media only screen and (min-width:320px) and (max-width: 480px) {
+  .misc-image {
+    display: block;
+    padding: 0 1px 0 1px;
+  }
+}
